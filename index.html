@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4e2f8c02eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: 'Inter', sans-serif">
+    <!-- Nav bar Section  -->
+    <div class="lg:container mx-auto px-12 flex justify-between py-6">
+      <div class="logo inline-block">
+        <span class="text-xl font-bold">Hot Coffee</span>
+      </div>
+      <div class="nav flex justify-between">
+        <div class="search-box pr-40">
+          <i class="fas fa-search"></i>
+          <input
+            class="pl-2 focus:outline-none"
+            type="text"
+            placeholder="Search"
+          />
+        </div>
+        <div class="nav-bar">
+          <ul class="inline">
+            <li class="inline-block">
+              <a class="px-4" href="">Home</a>
+            </li>
+            <li class="inline-block px-4"><a href="">Articles</a></li>
+            <li class="inline-block">
+              <a class="px-2" href=""
+                ><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="inline-block">
+              <a class="px-2" href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="inline-block">
+              <a class="px-2" href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Nav nar section End  -->
+
+    <!-- Banner Section  -->
+    <div class="banner bg-gray-50">
+      <div
+        class="flex justify-evenly items-center container mx-auto px-12 py-12"
+      >
+        <div class="banner-text">
+          <h1 class="font-extrabold text-6xl">
+            Make better <br />
+            coffee ☕
+          </h1>
+          <h2 class="py-4 text-gray-500 text-2xl">
+            why learn how to blog?
+          </h2>
+        </div>
+        <div class="banner-img">
+          <img src="banner.png" alt="banner" />
+        </div>
+      </div>
+    </div>
+    <!-- banner Section End  -->
+
+    <div class="px-12 container mx-auto">
+      <div class="flex justify-between items-center border border-gray-100 shadow-lg my-12">
+        <div class="float-left box-info p-8 w-2/4" >
+          <h1 class="font-extrabold text-xl py-2">long established</h1>
+          <p class="text-gray-500 py-4">
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that....
+          </p>
+          <div class="flex justify-between">
+            <span class="text-gray-500 text-sm"> May 20th 2020 </span>
+            <span class="font-bold text-sm"> Read more </span>
+          </div>
+        </div>
+        <div class="box-img">
+          <img class="object-fill" src="image 1.png" alt="">
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
